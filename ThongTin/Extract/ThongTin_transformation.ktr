@@ -293,51 +293,51 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dd</name>
+      </field>      <field>        <name>NgaySinh</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mm</name>
+      </field>      <field>        <name>ThangSinh</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>yyyy</name>
+      </field>      <field>        <name>NamSinh</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dd_1</name>
+      </field>      <field>        <name>NgayRuaToi</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mm_1</name>
+      </field>      <field>        <name>ThangRuaToi</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>yyyy_1</name>
+      </field>      <field>        <name>NamRuaToi</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dd_2</name>
+      </field>      <field>        <name>NgayRuocLe</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mm_2</name>
+      </field>      <field>        <name>ThangRuocLe</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>yyyy_2</name>
+      </field>      <field>        <name>NamRuocLe</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dd_3</name>
+      </field>      <field>        <name>NgayThemSuc</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mm_3</name>
+      </field>      <field>        <name>ThangThemSuc</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>yyyy_3</name>
+      </field>      <field>        <name>NamThemSuc</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -373,15 +373,15 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dd_4</name>
+      </field>      <field>        <name>NgayDangKy</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mm_4</name>
+      </field>      <field>        <name>ThangDangKy</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>yyyy_4</name>
+      </field>      <field>        <name>NamDangKy</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -409,51 +409,67 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Chi &#x111;o&#xe0;n</name>
+      </field>      <field>        <name>Chi &#x111;o&#xe0;n HienTai</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n</name>
+      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n HienTai</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3;</name>
+      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3; HienTai</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ghi ch&#xfa;_1</name>
+      </field>      <field>        <name>Ghi ch&#xfa; HienTai</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Chi &#x111;o&#xe0;n_1</name>
+      </field>      <field>        <name>Chi &#x111;o&#xe0;n 2013</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n_1</name>
+      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n 2013</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3;_1</name>
+      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3; 2013</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ghi ch&#xfa;_2</name>
+      </field>      <field>        <name>Ghi ch&#xfa; 2013</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Chi &#x111;o&#xe0;n_2</name>
+      </field>      <field>        <name>Chi &#x111;o&#xe0;n 2014</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n_2</name>
+      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n 2014</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3;_2</name>
+      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3; 2014</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ghi ch&#xfa;_3</name>
+      </field>      <field>        <name>Ghi ch&#xfa; 2014</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>Chi &#x111;o&#xe0;n 2015</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n 2015</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3; 2015</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>Ghi ch&#xfa; 2015</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -611,7 +627,7 @@
     <compare>
 <condition>
  <negated>N</negated>
- <leftvalue>Chi &#x111;o&#xe0;n</leftvalue>
+ <leftvalue>Chi &#x111;o&#xe0;n HienTai</leftvalue>
  <function>&#x3d;</function>
  <rightvalue>ChiDoanTemp</rightvalue>
  </condition>
@@ -735,6 +751,44 @@
     </step>
 
   <step>
+    <name>Import transformation log</name>
+    <type>WriteToLog</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <loglevel>log_level_basic</loglevel>
+      <displayHeader>Y</displayHeader>
+      <limitRows>N</limitRows>
+      <limitRowsNumber>0</limitRowsNumber>
+      <logmessage/>
+    <fields>
+      <field>
+        <name>ChiDoan</name>
+        </field>
+      <field>
+        <name>Filename</name>
+        </field>
+      <field>
+        <name>PhanDoan</name>
+        </field>
+      <field>
+        <name>InputFilePath</name>
+        </field>
+      </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>72</xloc>
+      <yloc>274</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
     <name>Microsoft Excel Input</name>
     <type>ExcelInput</type>
     <description/>
@@ -762,6 +816,11 @@
     <accept_stepname/>
     <file>
       <name>&#x24;&#x7b;InputFilePath&#x7d;</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+      <name/>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -841,7 +900,7 @@
         <group/>
       </field>
       <field>
-        <name>dd</name>
+        <name>NgaySinh</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -853,7 +912,7 @@
         <group/>
       </field>
       <field>
-        <name>mm</name>
+        <name>ThangSinh</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -865,7 +924,7 @@
         <group/>
       </field>
       <field>
-        <name>yyyy</name>
+        <name>NamSinh</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -877,7 +936,7 @@
         <group/>
       </field>
       <field>
-        <name>dd_1</name>
+        <name>NgayRuaToi</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -889,7 +948,7 @@
         <group/>
       </field>
       <field>
-        <name>mm_1</name>
+        <name>ThangRuaToi</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -901,7 +960,7 @@
         <group/>
       </field>
       <field>
-        <name>yyyy_1</name>
+        <name>NamRuaToi</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -913,7 +972,7 @@
         <group/>
       </field>
       <field>
-        <name>dd_2</name>
+        <name>NgayRuocLe</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -925,7 +984,7 @@
         <group/>
       </field>
       <field>
-        <name>mm_2</name>
+        <name>ThangRuocLe</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -937,7 +996,7 @@
         <group/>
       </field>
       <field>
-        <name>yyyy_2</name>
+        <name>NamRuocLe</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -949,7 +1008,7 @@
         <group/>
       </field>
       <field>
-        <name>dd_3</name>
+        <name>NgayThemSuc</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -961,7 +1020,7 @@
         <group/>
       </field>
       <field>
-        <name>mm_3</name>
+        <name>ThangThemSuc</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -973,7 +1032,7 @@
         <group/>
       </field>
       <field>
-        <name>yyyy_3</name>
+        <name>NamThemSuc</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1081,7 +1140,7 @@
         <group/>
       </field>
       <field>
-        <name>dd_4</name>
+        <name>NgayDangKy</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1093,7 +1152,7 @@
         <group/>
       </field>
       <field>
-        <name>mm_4</name>
+        <name>ThangDangKy</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1105,7 +1164,7 @@
         <group/>
       </field>
       <field>
-        <name>yyyy_4</name>
+        <name>NamDangKy</name>
         <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1189,7 +1248,7 @@
         <group/>
       </field>
       <field>
-        <name>Chi &#x111;o&#xe0;n</name>
+        <name>Chi &#x111;o&#xe0;n HienTai</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1201,7 +1260,7 @@
         <group/>
       </field>
       <field>
-        <name>Ph&#xe2;n &#x111;o&#xe0;n</name>
+        <name>Ph&#xe2;n &#x111;o&#xe0;n HienTai</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1213,7 +1272,7 @@
         <group/>
       </field>
       <field>
-        <name>K&#x1ebf;t qu&#x1ea3;</name>
+        <name>K&#x1ebf;t qu&#x1ea3; HienTai</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1225,7 +1284,7 @@
         <group/>
       </field>
       <field>
-        <name>Ghi ch&#xfa;_1</name>
+        <name>Ghi ch&#xfa; HienTai</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1237,7 +1296,7 @@
         <group/>
       </field>
       <field>
-        <name>Chi &#x111;o&#xe0;n_1</name>
+        <name>Chi &#x111;o&#xe0;n 2013</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1249,7 +1308,7 @@
         <group/>
       </field>
       <field>
-        <name>Ph&#xe2;n &#x111;o&#xe0;n_1</name>
+        <name>Ph&#xe2;n &#x111;o&#xe0;n 2013</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1261,7 +1320,7 @@
         <group/>
       </field>
       <field>
-        <name>K&#x1ebf;t qu&#x1ea3;_1</name>
+        <name>K&#x1ebf;t qu&#x1ea3; 2013</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1273,7 +1332,7 @@
         <group/>
       </field>
       <field>
-        <name>Ghi ch&#xfa;_2</name>
+        <name>Ghi ch&#xfa; 2013</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1285,7 +1344,7 @@
         <group/>
       </field>
       <field>
-        <name>Chi &#x111;o&#xe0;n_2</name>
+        <name>Chi &#x111;o&#xe0;n 2014</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1297,7 +1356,7 @@
         <group/>
       </field>
       <field>
-        <name>Ph&#xe2;n &#x111;o&#xe0;n_2</name>
+        <name>Ph&#xe2;n &#x111;o&#xe0;n 2014</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1309,7 +1368,7 @@
         <group/>
       </field>
       <field>
-        <name>K&#x1ebf;t qu&#x1ea3;_2</name>
+        <name>K&#x1ebf;t qu&#x1ea3; 2014</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1321,7 +1380,55 @@
         <group/>
       </field>
       <field>
-        <name>Ghi ch&#xfa;_3</name>
+        <name>Ghi ch&#xfa; 2014</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Chi &#x111;o&#xe0;n 2015</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Ph&#xe2;n &#x111;o&#xe0;n 2015</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>K&#x1ebf;t qu&#x1ea3; 2015</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>Ghi ch&#xfa; 2015</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -1401,51 +1508,51 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dd</name>
+      </field>      <field>        <name>NgaySinh</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mm</name>
+      </field>      <field>        <name>ThangSinh</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>yyyy</name>
+      </field>      <field>        <name>NamSinh</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dd_1</name>
+      </field>      <field>        <name>NgayRuaToi</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mm_1</name>
+      </field>      <field>        <name>ThangRuaToi</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>yyyy_1</name>
+      </field>      <field>        <name>NamRuaToi</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dd_2</name>
+      </field>      <field>        <name>NgayRuocLe</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mm_2</name>
+      </field>      <field>        <name>ThangRuocLe</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>yyyy_2</name>
+      </field>      <field>        <name>NamRuocLe</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dd_3</name>
+      </field>      <field>        <name>NgayThemSuc</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mm_3</name>
+      </field>      <field>        <name>ThangThemSuc</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>yyyy_3</name>
+      </field>      <field>        <name>NamThemSuc</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -1481,15 +1588,15 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dd_4</name>
+      </field>      <field>        <name>NgayDangKy</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mm_4</name>
+      </field>      <field>        <name>ThangDangKy</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>yyyy_4</name>
+      </field>      <field>        <name>NamDangKy</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -1517,51 +1624,67 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Chi &#x111;o&#xe0;n</name>
+      </field>      <field>        <name>Chi &#x111;o&#xe0;n HienTai</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n</name>
+      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n HienTai</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3;</name>
+      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3; HienTai</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ghi ch&#xfa;_1</name>
+      </field>      <field>        <name>Ghi ch&#xfa; HienTai</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Chi &#x111;o&#xe0;n_1</name>
+      </field>      <field>        <name>Chi &#x111;o&#xe0;n 2013</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n_1</name>
+      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n 2013</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3;_1</name>
+      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3; 2013</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ghi ch&#xfa;_2</name>
+      </field>      <field>        <name>Ghi ch&#xfa; 2013</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Chi &#x111;o&#xe0;n_2</name>
+      </field>      <field>        <name>Chi &#x111;o&#xe0;n 2014</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n_2</name>
+      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n 2014</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3;_2</name>
+      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3; 2014</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>Ghi ch&#xfa;_3</name>
+      </field>      <field>        <name>Ghi ch&#xfa; 2014</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>Chi &#x111;o&#xe0;n 2015</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>Ph&#xe2;n &#x111;o&#xe0;n 2015</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>K&#x1ebf;t qu&#x1ea3; 2015</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>Ghi ch&#xfa; 2015</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -1797,7 +1920,7 @@
     <footer>N</footer>
     <makeSheetActive>Y</makeSheetActive>
     <rowWritingMethod>overwrite</rowWritingMethod>
-    <startingCell>A4</startingCell>
+    <startingCell>A6</startingCell>
     <appendOmitHeader>N</appendOmitHeader>
     <appendOffset>0</appendOffset>
     <appendEmpty>0</appendEmpty>
@@ -1905,10 +2028,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>dd</name>
+        <name>NgaySinh</name>
         <type>Number</type>
         <format/>
-        <title>dd</title>
+        <title>NgaySinh</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -1917,10 +2040,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>mm</name>
+        <name>ThangSinh</name>
         <type>Number</type>
         <format/>
-        <title>mm</title>
+        <title>ThangSinh</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -1929,10 +2052,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>yyyy</name>
+        <name>NamSinh</name>
         <type>Number</type>
         <format/>
-        <title>yyyy</title>
+        <title>NamSinh</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -1941,10 +2064,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>dd_1</name>
+        <name>NgayRuaToi</name>
         <type>Number</type>
         <format/>
-        <title>dd_1</title>
+        <title>NgayRuaToi</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -1953,10 +2076,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>mm_1</name>
+        <name>ThangRuaToi</name>
         <type>Number</type>
         <format/>
-        <title>mm_1</title>
+        <title>ThangRuaToi</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -1965,10 +2088,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>yyyy_1</name>
+        <name>NamRuaToi</name>
         <type>Number</type>
         <format/>
-        <title>yyyy_1</title>
+        <title>NamRuaToi</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -1977,10 +2100,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>dd_2</name>
+        <name>NgayRuocLe</name>
         <type>Number</type>
         <format/>
-        <title>dd_2</title>
+        <title>NgayRuocLe</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -1989,10 +2112,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>mm_2</name>
+        <name>ThangRuocLe</name>
         <type>Number</type>
         <format/>
-        <title>mm_2</title>
+        <title>ThangRuocLe</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2001,10 +2124,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>yyyy_2</name>
+        <name>NamRuocLe</name>
         <type>Number</type>
         <format/>
-        <title>yyyy_2</title>
+        <title>NamRuocLe</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2013,10 +2136,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>dd_3</name>
+        <name>NgayThemSuc</name>
         <type>Number</type>
         <format/>
-        <title>dd_3</title>
+        <title>NgayThemSuc</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2025,10 +2148,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>mm_3</name>
+        <name>ThangThemSuc</name>
         <type>Number</type>
         <format/>
-        <title>mm_3</title>
+        <title>ThangThemSuc</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2037,10 +2160,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>yyyy_3</name>
+        <name>NamThemSuc</name>
         <type>Number</type>
         <format/>
-        <title>yyyy_3</title>
+        <title>NamThemSuc</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2145,10 +2268,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>dd_4</name>
+        <name>NgayDangKy</name>
         <type>Number</type>
         <format/>
-        <title>dd_4</title>
+        <title>NgayDangKy</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2157,10 +2280,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>mm_4</name>
+        <name>ThangDangKy</name>
         <type>Number</type>
         <format/>
-        <title>mm_4</title>
+        <title>ThangDangKy</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2169,10 +2292,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>yyyy_4</name>
+        <name>NamDangKy</name>
         <type>Number</type>
         <format/>
-        <title>yyyy_4</title>
+        <title>NamDangKy</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2253,10 +2376,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>Chi &#x111;o&#xe0;n</name>
+        <name>Chi &#x111;o&#xe0;n 2015</name>
         <type>String</type>
         <format/>
-        <title>Chi &#x111;o&#xe0;n</title>
+        <title>Chi &#x111;o&#xe0;n 2015</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2265,10 +2388,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>Ph&#xe2;n &#x111;o&#xe0;n</name>
+        <name>Ph&#xe2;n &#x111;o&#xe0;n 2015</name>
         <type>String</type>
         <format/>
-        <title>Ph&#xe2;n &#x111;o&#xe0;n</title>
+        <title>Ph&#xe2;n &#x111;o&#xe0;n 2015</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2277,10 +2400,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>K&#x1ebf;t qu&#x1ea3;</name>
+        <name>K&#x1ebf;t qu&#x1ea3; 2015</name>
         <type>String</type>
         <format/>
-        <title>K&#x1ebf;t qu&#x1ea3;</title>
+        <title>K&#x1ebf;t qu&#x1ea3; 2015</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2289,106 +2412,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>Ghi ch&#xfa;_1</name>
+        <name>Ghi ch&#xfa; 2015</name>
         <type>String</type>
         <format/>
-        <title>Ghi ch&#xfa;_1</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>Chi &#x111;o&#xe0;n_1</name>
-        <type>String</type>
-        <format/>
-        <title>Chi &#x111;o&#xe0;n_1</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>Ph&#xe2;n &#x111;o&#xe0;n_1</name>
-        <type>String</type>
-        <format/>
-        <title>Ph&#xe2;n &#x111;o&#xe0;n_1</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>K&#x1ebf;t qu&#x1ea3;_1</name>
-        <type>String</type>
-        <format/>
-        <title>K&#x1ebf;t qu&#x1ea3;_1</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>Ghi ch&#xfa;_2</name>
-        <type>String</type>
-        <format/>
-        <title>Ghi ch&#xfa;_2</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>Chi &#x111;o&#xe0;n_2</name>
-        <type>String</type>
-        <format/>
-        <title>Chi &#x111;o&#xe0;n_2</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>Ph&#xe2;n &#x111;o&#xe0;n_2</name>
-        <type>String</type>
-        <format/>
-        <title>Ph&#xe2;n &#x111;o&#xe0;n_2</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>K&#x1ebf;t qu&#x1ea3;_2</name>
-        <type>String</type>
-        <format/>
-        <title>K&#x1ebf;t qu&#x1ea3;_2</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>Ghi ch&#xfa;_3</name>
-        <type>String</type>
-        <format/>
-        <title>Ghi ch&#xfa;_3</title>
+        <title>Ghi ch&#xfa; 2015</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -2543,44 +2570,6 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>515</xloc>
       <yloc>81</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Import transformation log</name>
-    <type>WriteToLog</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <loglevel>log_level_basic</loglevel>
-      <displayHeader>Y</displayHeader>
-      <limitRows>N</limitRows>
-      <limitRowsNumber>0</limitRowsNumber>
-      <logmessage/>
-    <fields>
-      <field>
-        <name>ChiDoan</name>
-        </field>
-      <field>
-        <name>Filename</name>
-        </field>
-      <field>
-        <name>PhanDoan</name>
-        </field>
-      <field>
-        <name>InputFilePath</name>
-        </field>
-      </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>72</xloc>
-      <yloc>274</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
