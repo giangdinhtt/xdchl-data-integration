@@ -108,7 +108,6 @@
   <hop> <from>Microsoft Excel Input</from><to>Add constants</to><enabled>Y</enabled> </hop>
   <hop> <from>Add constants</from><to>Set field value to a constant</to><enabled>Y</enabled> </hop>
   <hop> <from>Set field value to a constant</from><to>Filter rows</to><enabled>Y</enabled> </hop>
-  <hop> <from>Filter rows</from><to>Sort rows</to><enabled>Y</enabled> </hop>
   <hop> <from>Set field value</from><to>Select values</to><enabled>Y</enabled> </hop>
   <hop> <from>Add sequence</from><to>Change field type</to><enabled>Y</enabled> </hop>
   <hop> <from>Sort rows</from><to>Add sequence</to><enabled>Y</enabled> </hop>
@@ -128,6 +127,8 @@
   <hop> <from>Create parent folder</from><to>Block this step until steps finish</to><enabled>Y</enabled> </hop>
   <hop> <from>Create parent folder</from><to>Microsoft Excel Input</to><enabled>Y</enabled> </hop>
   <hop> <from>Get rows from result</from><to>Import transformation log</to><enabled>Y</enabled> </hop>
+  <hop> <from>Filter rows</from><to>Unaccent Name</to><enabled>Y</enabled> </hop>
+  <hop> <from>Unaccent Name</from><to>Sort rows</to><enabled>Y</enabled> </hop>
   </order>
   <step>
     <name>Add constants</name>
@@ -622,7 +623,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-<send_true_to>Sort rows</send_true_to>
+<send_true_to>Unaccent Name</send_true_to>
 <send_false_to>Dummy &#x28;do nothing&#x29;</send_false_to>
     <compare>
 <condition>
@@ -1763,14 +1764,14 @@
            </partitioning>
       <directory>&#x25;&#x25;java.io.tmpdir&#x25;&#x25;</directory>
       <prefix>out</prefix>
-      <sort_size>1000000</sort_size>
+      <sort_size>100</sort_size>
       <free_memory/>
       <compress>N</compress>
       <compress_variable/>
       <unique_rows>N</unique_rows>
     <fields>
       <field>
-        <name>T&#xea;n</name>
+        <name>TenKhongDau</name>
         <ascending>Y</ascending>
         <case_sensitive>N</case_sensitive>
         <presorted>N</presorted>
@@ -2570,6 +2571,36 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>515</xloc>
       <yloc>81</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Unaccent Name</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <compatible>N</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>&#x2f;&#x2f;Script here&#xd;&#xa;&#xd;&#xa;var charToAccentedCharClassMap &#x3d; &#x7b;&#xd;&#xa;    &#x27;A&#x27; &#x3a; &#x27;&#x5b;Aa&#x5c;u00C0&#x5c;u00E0&#x5c;u00C1&#x5c;u00E1&#x5c;u1EA0&#x5c;u1EA1&#x5c;u1EA2&#x5c;u1EA3&#x5c;u00C3&#x5c;u00E3&#x5c;u00C2&#x5c;u00E2&#x5c;u1EA6&#x5c;u1EA7&#x5c;u1EA4&#x5c;u1EA5&#x5c;u1EAC&#x5c;u1EAD&#x5c;u1EA8&#x5c;u1EA9&#x5c;u1EAA&#x5c;u1EAB&#x5c;u0102&#x5c;u0103&#x5c;u1EB0&#x5c;u1EB1&#x5c;u1EB0&#x5c;u1EAF&#x5c;u1EB6&#x5c;u1EB7&#x5c;u1EB2&#x5c;u1EB3&#x5c;u1EB4&#x5c;u1EB5&#x5d;&#x27;,&#xd;&#xa;    &#x27;B&#x27; &#x3a; &#x27;&#x5b;Bb&#x5d;&#x27;,&#xd;&#xa;    &#x27;C&#x27; &#x3a; &#x27;&#x5b;Cc&#x5d;&#x27;,&#xd;&#xa;    &#x27;D&#x27; &#x3a; &#x27;&#x5b;Dd&#x5c;u0110&#x5c;u0111&#x5d;&#x27;,&#xd;&#xa;    &#x27;E&#x27; &#x3a; &#x27;&#x5b;Ee&#x5c;u00C8&#x5c;u00E8&#x5c;u00C9&#x5c;u00E9&#x5c;u1EB8&#x5c;u1EB9&#x5c;u1EBA&#x5c;u1EBB&#x5c;u1EBC&#x5c;u1EBD&#x5c;u00CA&#x5c;u00EA&#x5c;u1EC0&#x5c;u1EC1&#x5c;u1EBE&#x5c;u1EBF&#x5c;u1EC6&#x5c;u1EC7&#x5c;u1EC2&#x5c;u1EC3&#x5c;u1EC4&#x5c;u1EC5&#x5d;&#x27;,&#xd;&#xa;    &#x27;F&#x27; &#x3a; &#x27;&#x5b;Ff&#x5d;&#x27;,&#xd;&#xa;    &#x27;G&#x27; &#x3a; &#x27;&#x5b;Gg&#x5d;&#x27;,&#xd;&#xa;    &#x27;H&#x27; &#x3a; &#x27;&#x5b;Hh&#x5d;&#x27;,&#xd;&#xa;    &#x27;I&#x27; &#x3a; &#x27;&#x5b;Ii&#x5c;u00CC&#x5c;u00EC&#x5c;u00CD&#x5c;u00ED&#x5c;u1ECA&#x5c;u1ECB&#x5c;u1EC8&#x5c;u1EC9&#x5c;u0128&#x5c;u0129&#x5d;&#x27;,&#xd;&#xa;    &#x27;J&#x27; &#x3a; &#x27;&#x5b;Jj&#x5d;&#x27;,&#xd;&#xa;    &#x27;K&#x27; &#x3a; &#x27;&#x5b;Kk&#x5d;&#x27;,&#xd;&#xa;    &#x27;L&#x27; &#x3a; &#x27;&#x5b;Ll&#x5d;&#x27;,&#xd;&#xa;    &#x27;M&#x27; &#x3a; &#x27;&#x5b;Mm&#x5d;&#x27;,&#xd;&#xa;    &#x27;N&#x27; &#x3a; &#x27;&#x5b;Nn&#x5d;&#x27;,&#xd;&#xa;    &#x27;O&#x27; &#x3a; &#x27;&#x5b;Oo&#x5c;u00D2&#x5c;u00F2&#x5c;u00D3&#x5c;u00F3&#x5c;u1ECC&#x5c;u1ECD&#x5c;u1ECE&#x5c;u1ECF&#x5c;u00D5&#x5c;u00F5&#x5c;u00D4&#x5c;u00F4&#x5c;u1ED2&#x5c;u1ED3&#x5c;u1ED0&#x5c;u1ED1&#x5c;u1ED8&#x5c;u1ED9&#x5c;u1ED4&#x5c;u1ED5&#x5c;u1ED6&#x5c;u1ED7&#x5c;u01A0&#x5c;u01A1&#x5c;u1EDC&#x5c;u1EDD&#x5c;u1EDA&#x5c;u1EDB&#x5c;u1EE2&#x5c;u1EE3&#x5c;u1EDE&#x5c;u1EDF&#x5c;u1EE0&#x5c;u1EE1&#x5d;&#x27;,&#xd;&#xa;    &#x27;P&#x27; &#x3a; &#x27;&#x5b;Pp&#x5d;&#x27;,&#xd;&#xa;    &#x27;Q&#x27; &#x3a; &#x27;&#x5b;Qq&#x5d;&#x27;,&#xd;&#xa;    &#x27;R&#x27; &#x3a; &#x27;&#x5b;Rr&#x5d;&#x27;,&#xd;&#xa;    &#x27;S&#x27; &#x3a; &#x27;&#x5b;Ss&#x5d;&#x27;,&#xd;&#xa;    &#x27;T&#x27; &#x3a; &#x27;&#x5b;Tt&#x5d;&#x27;,&#xd;&#xa;    &#x27;U&#x27; &#x3a; &#x27;&#x5b;Uu&#x5c;u00D9&#x5c;u00F9&#x5c;u00DA&#x5c;u00FA&#x5c;u1EE4&#x5c;u1EE5&#x5c;u1EE6&#x5c;u1EE7&#x5c;u0168&#x5c;u0169&#x5c;u01AF&#x5c;u01B0&#x5c;u1EEA&#x5c;u1EEB&#x5c;u1EE8&#x5c;u1EE9&#x5c;u1EF0&#x5c;u1EF1&#x5c;u1EEC&#x5c;u1EED&#x5c;u1EEE&#x5c;u1EEF&#x5d;&#x27;,&#xd;&#xa;    &#x27;V&#x27; &#x3a; &#x27;&#x5b;Vv&#x5d;&#x27;,&#xd;&#xa;    &#x27;W&#x27; &#x3a; &#x27;&#x5b;Ww&#x5d;&#x27;,&#xd;&#xa;    &#x27;X&#x27; &#x3a; &#x27;&#x5b;Xx&#x5d;&#x27;,&#xd;&#xa;    &#x27;Y&#x27; &#x3a; &#x27;&#x5b;Yy&#x5c;u1EF2&#x5c;u1EF3&#x5c;u00DD&#x5c;u00FD&#x5c;u1EF4&#x5c;u1EF5&#x5c;u1EF6&#x5c;u1EF7&#x5c;u1EF8&#x5c;u1EF9&#x5d;&#x27;,&#xd;&#xa;    &#x27;Z&#x27; &#x3a; &#x27;&#x5b;Zz&#x5d;&#x27;&#xd;&#xa;&#x7d;&#x3b;&#xd;&#xa;&#xd;&#xa;function deaccent&#x28;accentedString, ignoreCase&#x29; &#x7b;&#xd;&#xa;    var result &#x3d; accentedString&#x3b;&#xd;&#xa;    for &#x28; var key in charToAccentedCharClassMap&#x29; &#x7b;&#xd;&#xa;        result &#x3d; result.replace&#x28;new RegExp&#x28;charToAccentedCharClassMap&#x5b;key&#x5d;, ignoreCase &#x3f; &#x22;gi&#x22; &#x3a; &#x22;g&#x22;&#x29;, key&#x29;&#x3b;&#xd;&#xa;    &#x7d;&#xd;&#xa;    return result&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;function createAccentRegexp&#x28;characters, ignoreCase&#x29; &#x7b;&#xd;&#xa;    &#x2f;&#x2f; Replaces all accented characters.&#xd;&#xa;    var deaccentedString &#x3d; deaccent&#x28;characters, ignoreCase&#x29;&#x3b;&#xd;&#xa;    &#x2f;&#x2f; Escapes all regexp meta characters.&#xd;&#xa;    var cleanString &#x3d; deaccentedString.replace&#x28;&#x2f;&#x28;&#x5b;&#x7c;&#x28;&#x29;&#x5b;&#x7b;.&#x2b;&#x2a;&#x3f;&#x5e;&#x24;&#x5c;&#x5c;&#x5d;&#x29;&#x2f;g, &#x22;&#x5c;&#x5c;&#x24;1&#x22;&#x29;&#x3b;&#xd;&#xa;    var accentReplacer &#x3d; function&#x28;character&#x29; &#x7b;&#xd;&#xa;        return charToAccentedCharClassMap&#x5b;character&#x5d; &#x7c;&#x7c; character&#x3b;&#xd;&#xa;    &#x7d;&#x3b;&#xd;&#xa;    &#x2f;&#x2f; Matches anything &#x2a;but&#x2a; a whitespace and replaces it.&#xd;&#xa;    var regexp &#x3d; cleanString.replace&#x28;&#x2f;&#x5c;S&#x2f;g, accentReplacer&#x29;&#x3b;&#xd;&#xa;    return new RegExp&#x28;regexp, ignoreCase &#x3f; &#x22;gi&#x22; &#x3a; &#x22;g&#x22;&#x29;&#x3b;&#xd;&#xa;&#x7d;&#xd;&#xa;function unaccent&#x28;accentedString&#x29; &#x7b;&#xd;&#xa;	var phraseRegEx &#x3d; createAccentRegexp&#x28;accentedString, false&#x29;&#x3b;&#xd;&#xa;	return accentedString.replace&#x28;phraseRegEx, &#x27;&#x24;&#x26;&#x27;&#x29;&#xd;&#xa;&#x7d;&#xd;&#xa;var TenKhongDau &#x3d; deaccent&#x28;T&#xea;n, false&#x29;.replace&#x28;&#x2f; &#x2f;g,&#x27;&#x27;&#x29;&#x3b;&#xd;&#xa;TenKhongDau &#x3d; TenKhongDau.substring&#x28;0,1&#x29; &#x2b; T&#xea;n&#x3b;&#xd;&#xa;&#xd;&#xa;</jsScript_script>
+      </jsScript>    </jsScripts>    <fields>      <field>        <name>TenKhongDau</name>
+        <rename>TenKhongDau</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>657</xloc>
+      <yloc>262</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
